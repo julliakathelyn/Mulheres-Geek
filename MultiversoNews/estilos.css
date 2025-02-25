@@ -1,0 +1,33 @@
+
+.menu {
+    background-color: black;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{
+    display: block;
+    padding: 10px;
+    color: #a70000;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+.test{
+    background-color: black;
+}
