@@ -1,33 +1,80 @@
+.menutop{
+    width: 100%;
+    height: 110px;
+}
 
-.menu {
+.menubottom {
+    width: 100%;
+    height: 50px;
     background-color: black;
     text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
     
+
+    font-size: 22px;
+
 }
 
-.menu ul li{
+.menubottom ul li {
     display: inline-block;
-    
+
 }
 
-.menu ul li a{
-    display: block;
-    padding: 10px;
+.menubottom ul li a {
+    padding: 30px;
     color: #fff;
     text-decoration: none;
-    
+
 }
-.menu ul li a:hover{
-    display: block;
-    padding: 10px;
+
+.menubottom ul li a:hover {
     color: #a70000;
-    text-decoration: none;
-    font-size: large;
+    text-decoration: underline;
+
+}
+
+
+
+.test {
+    background-color: rgb(146, 24, 24);
+}
+
+.imglateral {
+    width: 40vw;
+    height: 350px;
+    background-color: #a70000;
+    border-radius: 10px;
+
+
+}
+
+.imglateral2 {
+    width: 40vw;
+    height: 350px;
+    background-color: #7200a7;
+    border-radius: 10px;
+
+}
+
+.imggrande {
+    width: 40vw;
+    height: 740px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
     
 }
 
-.test{
-    background-color: black;
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
 }
