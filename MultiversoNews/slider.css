@@ -1,0 +1,121 @@
+section.slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+
+}
+
+.slider-content input,
+.img-mobile {
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+
+}
+
+.slide-box img {
+    width: 100vw;  /* Define a largura exata como 100% da tela */
+    /*flex-shrink: 0;*/
+}
+
+.nav-manual,
+.nav-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 27%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* estilização do botão*/
+.nav-manual .manual-btn,
+.nav-auto div {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+/* todos vão receber o css menos o "ultimo filho" */
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: #b39ddb;
+}
+
+#radio1:checked~.nav-auto .auto-btn1 {
+    background-color: #b39ddb;
+}
+
+#radio2:checked~.nav-auto .auto-btn2 {
+    background-color: #b39ddb;
+}
+
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: #b39ddb;
+}
+
+#radio4:checked~.nav-auto .auto-btn4 {
+    background-color: #b39ddb;
+}
+
+#radio5:checked~.nav-auto .auto-btn5 {
+    background-color: #b39ddb;
+}
+
+
+#radio1:checked~.primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
+}
+
+#radio4:checked~.primeiro {
+    margin-left: -75%;
+}
+
+#radio5:checked~.primeiro {
+    margin-left: -100%;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    transform: translateX(-50%);
+    padding: 70px 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%; 
+    font-size: 
+}

@@ -1,42 +1,64 @@
-.menutop{
-    width: 100%;
-    height: 110px;
+.menu-container{
+    display: flex;
+    background: linear-gradient(135deg, #b39ddb, #46064d, #b39ddb);
+    align-items: center;
+    font-size: 22px;
+    border-bottom:  2px #ffffff solid;
+
 }
 
-.menubottom {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    text-align: center;
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
     
 
-    font-size: 22px;
-
 }
 
-.menubottom ul li {
-    display: inline-block;
-
-}
-
-.menubottom ul li a {
-    padding: 30px;
+nav ul li a {
+    padding: 40px;
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 
 }
 
-.menubottom ul li a:hover {
+nav ul li a:hover {
     color: #a70000;
     text-decoration: underline;
 
 }
 
-
-
-.test {
-    background-color: rgb(146, 24, 24);
-}
 
 .imglateral {
     width: 40vw;
@@ -84,4 +106,57 @@
     width: 100%;
     height: 400px;
 
+}
+
+.btn-exemplo{
+    background-color: #a70000;
+    padding: 0.5em 1em;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 10vw;
+    position: fixed ;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.btn-exemplo-superior{
+    background-color: #2400a7;
+    padding: 0.5em 1em;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 10vw;
+    position: fixed ;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+/*.logo-tamanho{
+   background-color: aliceblue;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}*/
+.container-noticias{
+    display: flex;
+    flex-direction: row;
+}
+.img-lateal-notica{
+    display: flex;
+    
+    width: 20px;
+    height: 20vh;
+
+}
+.conteudo {
+    display: flex;
 }
