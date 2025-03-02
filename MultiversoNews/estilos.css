@@ -5,6 +5,7 @@
     align-items: center;
     font-size: 22px;
     border-bottom:  2px #ffffff solid;
+    
 
 }
 
@@ -62,16 +63,23 @@ nav ul li a:hover {
 
 
 .imglateral {
-    width: 40vw;
+    width: 35vw;
     height: 350px;
     background-color: #a70000;
     border-radius: 10px;
 
+}
+
+.imglateral img, .imglateral2 img{
+    width: 35vw;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
 
 }
 
 .imglateral2 {
-    width: 40vw;
+    width: 35vw;
     height: 350px;
     background-color: #7200a7;
     border-radius: 10px;
@@ -79,19 +87,29 @@ nav ul li a:hover {
 }
 
 .imggrande {
-    width: 40vw;
+    width: 35vw;
     height: 740px;
     background-color: blue;
     border-radius: 10px;
+    
 
 }
+.imggrande img {
+    width: 35vw;
+    height: 740px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+
 
 .container {
     display: flex;
     flex-direction: row;
     gap: 40px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 8vh;
     
 }
 
@@ -153,32 +171,73 @@ nav ul li a:hover {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
+    padding-top: 20px;
     
 }
 
 article{
     display: flex;
     align-items: center;
-    background: #787777;
+    background-color: #b39ddb58;
     border-radius: 10px;
-    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 
+
 }
 .img-lateal-noticia img{
-    width: 40vw;
+    width: 25vw;
     height: 40vh;
+    border-radius: 10px;
+    object-fit: cover;
+    
 
 }
 .conteudo {
+    
     padding-left: 20px;
 
+}
+
+.conteudo h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.conteudo p{
+    font-size: 17px;text-align: justify;
 }
 
 * {
     margin: 0;
 }
 
+.container-tres-noticias{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+    
+}
+
+.container-tres-noticias a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.testtt{
+    border: 1px black solid;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.text-titulos a {
+    
+    position: absolute;
+    font-size: 30px;
+}

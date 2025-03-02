@@ -1,0 +1,42 @@
+main h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+main p, li, ul {
+    font-size: 25px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom:  30px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+
+
+.img-padrao-pag-noticias {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img-padrao-pag-noticias img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-pag-noticias {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+}
