@@ -4,7 +4,7 @@ main h1 {
     padding-right: 150px;
     padding-left: 150px;
 }
-main p, li, ul {
+main p, main li, main ul {
     font-size: 25px;
     padding-right: 150px;
     padding-left: 150px;
