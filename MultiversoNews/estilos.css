@@ -1,20 +1,19 @@
-
-.menu-container{
+.menu-container {
     display: flex;
     background: linear-gradient(135deg, #b39ddb, #46064d, #b39ddb);
     align-items: center;
     font-size: 22px;
-    border-bottom:  2px #ffffff solid;
+    border-bottom: 2px #ffffff solid;
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 
 }
 
-.logo img{
+.logo img {
     height: 70px;
     margin-right: 10px;
 }
@@ -26,7 +25,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-nav{
+nav {
     flex: 1;
     display: flex;
     justify-content: right;
@@ -42,7 +41,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    
+
 
 }
 
@@ -73,13 +72,13 @@ nav ul li a:hover {
     overflow: hidden;
 
 }
-.imglateral:hover img{
+
+.imglateral:hover img {
     transform: scale(1.1);
     filter: brightness(0.7)
-
 }
 
-.link-noticia{
+.link-noticia {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -96,13 +95,14 @@ nav ul li a:hover {
 
 
 
-.imglateral img, .imglateral2 img{
+.imglateral img,
+.imglateral2 img {
     width: 35vw;
     height: 350px;
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease, filter 0.3s ease;
-    
+
 
 }
 
@@ -113,14 +113,14 @@ nav ul li a:hover {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    
-    
+
+
 
 }
-.imglateral2:hover img{
+
+.imglateral2:hover img {
     transform: scale(1.1);
     filter: brightness(0.7)
-
 }
 
 
@@ -133,7 +133,7 @@ nav ul li a:hover {
     gap: 40px;
     justify-content: center;
     margin-top: 8vh;
-    
+
 }
 
 
@@ -146,19 +146,19 @@ nav ul li a:hover {
     overflow: hidden;
 
 }
+
 .imggrande img {
     width: 35vw;
     height: 740px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
-    
+
 }
 
-.imggrande:hover img{
+.imggrande:hover img {
     transform: scale(1.1);
     filter: brightness(0.7)
-
 }
 
 
@@ -169,13 +169,13 @@ nav ul li a:hover {
 
 }
 
-.btn-exemplo{
+.btn-exemplo {
     background-color: #a70000;
     padding: 0.5em 1em;
     height: 10vh;
     width: 10vw;
     border-radius: 10vw;
-    position: fixed ;
+    position: fixed;
     bottom: 10px;
     right: 10px;
     box-shadow: 3px 3px 3px;
@@ -183,13 +183,13 @@ nav ul li a:hover {
     z-index: 1000;
 }
 
-.btn-exemplo-superior{
+.btn-exemplo-superior {
     background-color: #2400a7;
     padding: 0.5em 1em;
     height: 10vh;
     width: 10vw;
     border-radius: 10vw;
-    position: fixed ;
+    position: fixed;
     bottom: 10px;
     right: 10px;
     box-shadow: 3px 3px 3px;
@@ -197,7 +197,7 @@ nav ul li a:hover {
     z-index: 1100;
 }
 
-.container-noticias{
+.container-noticias {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,73 +206,77 @@ nav ul li a:hover {
     max-width: 1100px;
     margin: auto;
     padding-top: 20px;
-    
+
 }
 
-.img-lateral-esquerda img{
+.img-lateral-esquerda img {
     width: 25vw;
     height: 40vh;
     border-radius: 10px;
     object-fit: cover;
 }
 
-article{
+article {
     display: flex;
     align-items: center;
-    
+
     border-radius: 10px;
-   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     padding: 20px;
 
 
 }
-.container{
+
+.container {
     overflow: hidden;
 }
 
 
-.img-tres img{
+.img-tres img {
     width: 25vw;
     height: 40vh;
     border-radius: 10px;
     object-fit: cover;
-    
-    
+
+
 }
 
-.img-tres:hover img{
+.img-tres:hover img {
     transform: scale(1.1);
     filter: brightness(0.7);
 }
+
 .conteudo {
-    
+
     padding-left: 20px;
 
 }
 
-.conteudo h1{
+.conteudo h1 {
     font-size: 30px;
     padding-bottom: 10px;
-    
+
 }
-.conteudo p{
-    font-size: 17px;text-align: justify;
+
+.conteudo p {
+    font-size: 17px;
+    text-align: justify;
 }
 
 * {
     margin: 0;
 }
 
-.container-tres-noticias{
+.container-tres-noticias {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
     gap: 4vw;
-    
+
 }
 
-.container-divs{
+.container-divs {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,30 +284,30 @@ article{
     max-width: 300px;
     flex: 1;
     max-width: 300px;
-    gap:2vw
+    gap: 2vw
 }
 
 .container-tres-noticias a {
     font-size: 20px;
     text-decoration: none;
     color: black;
-    
+
 }
 
-.linha{
+.linha {
     border: 1px black solid;
     width: 70vw;
     margin: 0 auto;
-    
+
 }
 
 .text-titulos a {
-    
+
     position: absolute;
     font-size: 30px;
 }
 
-footer{
+footer {
     background-color: #46064d;
     color: #fff;
     overflow: hidden;
@@ -313,43 +317,89 @@ footer{
     height: 50vh;
 
 }
-footer h1{
+
+footer h1 {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 30px;
 }
 
-.logo-footer{
-   height: 200px;
-   width: 200px;
-   display: flex;
-   padding-top: 40px;
-   
+.logo-footer {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    padding-top: 40px;
+
 }
 
 
-.conteudo-footer{
+.conteudo-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
+
+
 
 }
-.alinhamento-footer{
+
+.alinhamento-footer {
     display: flex;
     flex-direction: row;
     gap: 1vw;
-        
-}
-.espacamento-divs{
-    padding: 20px;
-    
+
 }
 
-.p-destaque{
+.espacamento-divs {
+    padding: 20px;
+
+}
+
+.p-destaque {
     color: white;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
+
+.main-sobre {
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top:10vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    
+    
+}
+
+.main-sobre p{
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+.criadora{
+    background-color: #b39ddb;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    margin-top:10vh;
+    padding-bottom: 20vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.criadora img{
+    padding-top: 1vh;
+    display: flex;
+    border-radius: 300px;
+    
+}
+
+
