@@ -266,13 +266,25 @@ article{
 .container-tres-noticias{
     display: flex;
     justify-content: center;
-    padding: 100px;
-    gap: 30px;
+    align-items: center;
+    padding: 80px;
+    gap: 4vw;
     
 }
 
+.container-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    flex: 1;
+    max-width: 300px;
+    gap:2vw
+}
+
 .container-tres-noticias a {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     
@@ -298,13 +310,19 @@ footer{
     display: flex;
     justify-content: center;
     gap: 10vw;
+    height: 50vh;
 
+}
+footer h1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
 }
 
 .logo-footer{
    height: 200px;
    width: 200px;
    display: flex;
+   padding-top: 40px;
    
 }
 
