@@ -290,3 +290,48 @@ article{
     position: absolute;
     font-size: 30px;
 }
+
+footer{
+    background-color: #46064d;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+
+}
+
+.logo-footer{
+   height: 200px;
+   width: 200px;
+   display: flex;
+   
+}
+
+
+.conteudo-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.alinhamento-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+        
+}
+.espacamento-divs{
+    padding: 20px;
+    
+}
+
+.p-destaque{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
