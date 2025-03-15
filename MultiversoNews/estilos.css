@@ -248,18 +248,19 @@ article {
 .conteudo {
 
     padding-left: 20px;
-
+    
 }
 
 .conteudo h1 {
     font-size: 30px;
     padding-bottom: 10px;
-
+    
 }
 
 .conteudo p {
     font-size: 17px;
     text-align: justify;
+    
 }
 
 * {
