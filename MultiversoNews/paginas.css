@@ -1,16 +1,18 @@
 main h1 {
-    font-size: 60px;
+    font-size: 40px;
     padding-bottom: 30px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
 }
 main p, main li, main ul {
-    font-size: 25px;
-    padding-right: 150px;
-    padding-left: 150px;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
     padding-bottom:  10px;
     padding-top: 10px;
     text-align: justify;
+    list-style: none;
 }
 
 main h3, h2{
@@ -21,18 +23,17 @@ main h3, h2{
 }
 
 
-
-
-
 .img-padrao-pag-noticias {
     max-width: 60vw;
     height: auto;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .img-padrao-pag-noticias img {
-    max-width: 60vw;
+    max-width: 50vw;
     height: auto; 
     border-radius: 10px;
 
@@ -45,6 +46,46 @@ main {
     justify-content: center;
     align-items: center;
 }
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding-top: 10px;
+}
+.btn-topicos{
+    width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.btn-topicos::before {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: .3s;
+    mix-blend-mode: difference;
+  }
+
+  .btn-topicos:hover::before {
+    transition-duration: .3s;
+    transform: translate(100%,-50%);
+    border-radius: 0;
+  }
 
 .conteudo-pag-noticias {
     display: flex;
