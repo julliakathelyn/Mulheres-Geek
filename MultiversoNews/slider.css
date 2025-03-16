@@ -114,8 +114,9 @@ section.slider {
     border-radius: 10px;
     text-align: left;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     width: 80%; 
+    text-shadow: black 0.1em 0.1em 0.2em
     
 }
