@@ -385,10 +385,10 @@ footer .conteudo-footer a{
 main{
     display: flex;
 }
-.main-sobre {
+/*.main-sobre {
     border-radius: 10px;
     background-color: #b39ddbb4;
-    margin-right: 5vw;
+    margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 5vh;
     padding-top: 4vh;
@@ -397,24 +397,18 @@ main{
     padding-left: 6vw;
 
 
-}
+}*/
 
-.main-sobre p {
+/*.main-sobre p {
     color: #fff;
     font-size: 25px;
     text-align: justify;
 
 
-}
+}*/
 
 .criadora {
-    background-color: #b39ddb;
-    margin-right: 10vw;
-    margin-top: 5vh;
-    padding-bottom: 8vw;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    border-radius: 10px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -464,4 +458,10 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.div-links a{
+    color: white;
+    font-size: 20px;
 }
