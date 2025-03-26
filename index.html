@@ -1,40 +1,335 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ShePlays</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 
 
 <body>
 
     <header>
-    
-        <nav class="menu">
-            
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="/">Novidades</a></li>
-                <li><a href="/">Sobre</a></li>
-            </ul>
-        </nav>
+        <div class="menu-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+                <span>ShePlays</span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="novidades.html">Novidades</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
 
     </header>
 
-    <section>
-        
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+            <input type="radio" name="btn-radio" id="radio5">
+
+            <div class="slide-box primeiro">
+                <a href="noticia11.html">
+                    <img class="img-desktop" src="img/slide-1.png">
+                    <div class="slide-text">
+                        <p> Tri campeã da resenha<br> das minas: "É bom poder<br> ganhar mais uma vez!" </p>
+                    </div>
+                </a>
+                <img class="img-mobile" src="img/slide-1-mob.png">
+            </div>
+
+            <div class="slide-box">
+                <a href="noticia3.html">
+                    <img class="img-desktop" src="img/slide-2.png">
+                    <div class="slide-text">
+                        <p>9 Streamers mulheres<br> para acompanhar e assistir<br> em lives.</p>
+                    </div>
+                </a>
+                <!--a href="#"> <img src=""-->
+                <img class="img-mobile" src="img/slide-2-mob.png">
+            </div>
+
+            <div class="slide-box">
+                <a href="noticia5.html">
+                    <img class="img-desktop" src="img/slide-lol.png">
+                    <div class="slide-text">
+                        <p>Mulheres conquistam <br>cada vez mais<br> espaço no mundo gamer.</p>
+                    </div>
+                </a>
+                <!--a href="#"> <img src=""-->
+                <img class="img-mobile" src="img/slide-3-mob.png">
+            </div>
+
+            <div class="slide-box">
+                <a href="noticia6.html">
+                    <img class="img-desktop" src="img/slide-4.png">
+                    <div class="slide-text">
+                        <p>"Fazia live para mim mesma":<br>Bagi conta reviravoltas da<br> profissão...</p>
+                    </div>
+                </a>
+                <!--a href="#"> <img src=""-->
+                <img class="img-mobile" src="img/slide-4-mob.png">
+            </div>
+
+            <div class="slide-box">
+                <a href="noticia2.html">
+                    <img class="img-desktop" src="img/slide-5.png">
+                    <div class="slide-text">
+                        <p>Como as streamers mulheres<br> estão transformando o cenário<br> dos torneios de esports</p>
+                    </div>
+                    <!--a href="#"> <img src=""-->
+                    <img class="img-mobile" src="img/slide-5-mob.png">
+            </div></a>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+
+
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+
+            </div>
+
+        </div>
     </section>
 
-    <section></section>
-    <aside></aside>
-    <aside></aside>
+    <div class="container">
+        <section class="imggrande">
+            <!--h1>Conheça 5 mulheres que fazem história no universo gamer brasileiro</h1-->
+            <div>
+                <a href="noticia10.html">
+                    <img src="img/resenha-em-pe.png"> </a>
+                <a class="link-noticia" href="noticia10.html"> Resenha das Minas: VALORANT e representatividade na cena
+                    gamer</a>
+            </div>
 
-    <div></div>>
+
+        </section>
+        <div class="gap">
+
+
+            <aside>
+                <div class="imglateral">
+                    <a href="noticia8.html">
+                        <img src="img/potter-eg.png"></a>
+                    <a class="link-noticia" href="noticia10.html"> Potter renova com EG até 2027!</a>
+                </div>
+                <!--h1>Team Liquid e o Resenha das Minas: VALORANT e representatividade na cena gamer</h1-->
+                <!--img src="img/resenha.jpg" -->
+            </aside>
+
+            <aside>
+                <div class="imglateral2">
+                    <a href="noticia7.html">
+                        <img src="https://esportenewsmundo.com.br/wp-content/uploads/2023/03/Team-Liquid.jpg"></a>
+                    <a class="link-noticia" href="noticia10.html">Team Liquid está na Grande Final do VCT Game Changers
+                        Brazil Kickoff 2025</a>
+                </div>
+                
+            </aside>
+        </div>
+
+    </div>
+
+
+
+    <!-- botão-->
+    <!--div class="btn-exemplo"> </div>
+    <div class="btn-exemplo-superior"> </div-->
+
+
+
+    <section class="container-tres-noticias">
+        <div class="container-divs">
+            <a href="noticia11.html">
+                <div class="img-tres">
+                    <img src="img/jullia-pequno.png" alt="Noticias sobre e-sport">
+                </div>
+            </a>
+            <div><a href="noticia11.html"> Conheça a nova prodígio do cenário feminino!!</a></div>
+        </div>
+
+        <div class="container-divs">
+            <a href="noticia1..html">
+                <div class="img-tres">
+                    <img src="img/valorant-pequeno.png" alt="Noticias sobre e-sport">
+                </div>
+            </a>
+            <a href="noticia1.html"> Mundial feminino de VALORANT ganha data</a>
+        </div>
+
+        <div class="container-divs">
+            <a href="noticia4.html">
+                <div class="img-tres">
+                    <img src="img/daiki-pequeno.png" alt="Noticias sobre e-sport">
+                </div>
+            </a>
+            <a href="noticia4.html"> Conheça 5 mulheres que fazem história no universo...</a>
+        </div>
+
+    </section>
+
+
+    <div class="linha"></div>
+
+    <section class="container-noticias">
+
+
+        <article>
+            <a href="noticia2.html">
+                <div class="img-lateral-esquerda">
+                    <img src="img/sofia-espanha.png" alt="Noticias sobre e-sport">
+                </div>
+            </a>
+
+            <div class="conteudo">
+                <h1>Como as streamers mulheres estão transformando o cenário dos torneios de esports</h1>
+                <p>Nos últimos anos, as streamers mulheres ganharam cada vez mais relevância no cenário dos
+                    esportes,
+                    ajudando a
+                    transformar a forma como os torneios são organizados e como o setor é percebido. Elas estão
+                    promovendo
+                    maior
+                    diversidade e inclusão em um espaço que historicamente tem sido dominado por homens.</p>
+                <a href="noticia2.html"> Ler mais</a>
+            </div>
+
+        </article>
+
+    </section>
+    <div class="linha"> </div>
+
+    <section class="container-noticias">
+
+        <article>
+            <a href="noticia1..html">
+                <div class="img-lateral-esquerda">
+                    <img src="https://s2-ge.glbimg.com/rQjuee5zmDM4n7680Id_ZWJArBg=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/a/Y/1RBJtGQRGptdP460onxA/game-changers-championship.jpeg"
+                        alt="Noticias sobre e-sport">
+                </div>
+            </a>
+
+            <div class="conteudo">
+                <h1>Mundial feminino de VALORANT ganha data e local</h1>
+
+                <p>O torneio acontecerá até 20 de novembro, totalizando cinco dias de competição que vão reunir os oito
+                    melhores times femininos do mundo em Berlim. Curiosamente, o Game Changers recebeu menos vagas que o
+                    Masters e o Champions, mundiais mistos, que contam com 16 times participando da competição. Em
+                    questão
+                    de vagas, o Brasil recebeu somente uma, enquanto América do Norte e EMEA (Europa, Oriente Médio e
+                    África) ficam com duas vagas cada.</p>
+                <a href="noticia1..html"> Ler mais</a>
+            </div>
+        </article>
+    </section>
+
+    <div class="linha"> </div>
+
+    <section class="container-noticias">
+
+        <article>
+            <a href="noticia3.html">
+
+                <div class="img-lateral-esquerda">
+                    <img src="https://s2-ge.glbimg.com/SAm2XQUSKsJKl7cLl562Xi6sWq8=/0x193:1080x1099/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/3/0/xB0FNNSSaM1Pfc64NJ0Q/123248452-672514320073084-2783211535774279410-n.jpg"
+                        alt="Noticias sobre e-sport">
+                </div>
+            </a>
+
+            <div class="conteudo">
+                <h1>9 streamers mulheres para acompanhar e assistir em lives</h1>
+
+                <p>Streamer de Overwatch, The Sims 4, Animal Crossing e outros, Maethe anima o público com a sua risada
+                    contagiante. Formada em veterinária, Maethe também compartilha com o chat sobre a vida com seus dois
+                    gatos, Ellie e Remy. Fã do Joe Jonas e admiradora da Disney, a streamer não esconde a felicidade ao
+                    contar as histórias que viveu em suas visitas ao parque. Com mais de 271 mil seguidores no seu canal
+                    da Twitch, Maethe revelou que realizou um dos seus sonhos ao dublar Jenny Jenny, personagem do jogo
+                    brasileiro Dandy Ace. </p>
+                <a href="noticia3.html"> Ler mais</a>
+            </div>
+        </article>
+    </section>
+    <div class="linha"> </div>
+    <section class="container-noticias">
+
+        <article>
+            <a href="noticia4.html">
+
+            <div class="img-lateral-esquerda">
+                <img src="https://pm1.aminoapps.com/6582/cb733e72a16e83e593be32f10acb8322fc6f9f83_00.jpg"
+                    alt="Noticias sobre e-sport">
+            </div></a>
+
+            <div class="conteudo">
+                <h1>Conheça 5 mulheres que fazem história no universo gamer brasileiro</h1>
+
+                <p>Ao mesmo tempo em que o público feminino vem se tornando cada vez mais importante para o mercado de
+                    esports no Brasil, muitas mulheres estão vencendo as barreiras e construindo carreiras de sucesso
+                    como gamers na internet. De acordo com especialistas, ainda há uma percepção equivocada de que o
+                    público-alvo dos esportes eletrônicos e videogames é majoritariamente masculino, algo que está longe
+                    de ser verdade.</p>
+                <a href="noticia4.html"> Ler mais</a>
+            </div>
+        </article>
+    </section>
+
     
-    <footer></footer>
+    <footer>
+        <div class="conteudo-footer">
+            <div class="logo-footer">
+                <img src="img/logo-footer.png">
+            </div>
+
+            <ul>
+                <h3>ShePlays</h3>
+                <p> Um site focado em Noticias de mulheres no mundo dos games!</p>
+                <div class="rede-sociais">
+
+                </div>
+            </ul>
+            <ul>
+                <h3>Links</h3>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+            <ul>
+                <h3>Suporte</h3>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Atendimento ao cliente</a></li>
+            </ul>
+            <ul>
+                <h3>Nos contacte</h3>
+                <li><p>(11) 4002-8922</p></li>
+                <li><p>sheplays@gmail.com</p></li>
+                <li><p>Brasil </p></li>
+            </ul>
+            
+        </div>
+    </footer>
     <script src="script.js"></script>
+    <script src="slide.js"></script>
 </body>
+
 </html>
