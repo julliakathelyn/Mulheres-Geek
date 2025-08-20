@@ -3,6 +3,8 @@
 
 ShePlays é uma plaraforma Web para tudo o que acontece no universo gamer feminino. Essa pagina foi criada para exaltar a presença feminina no mundo dos e-sports.
 
+🌐 Site: https://julliakathelyn.github.io/Mulheres-Geek/
+
 
 ## Home Page e Novidades
 
